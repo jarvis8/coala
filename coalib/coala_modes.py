@@ -9,6 +9,7 @@ def mode_normal(console_printer, log_printer, args, debug=False):
                             and not catching any exceptions.
     """
     import functools
+    import logging
 
     from coalib.coala_main import run_coala
     from coalib.output.ConsoleInteraction import (
